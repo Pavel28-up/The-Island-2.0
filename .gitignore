@@ -16,3 +16,4 @@
 *.iml
 .DotSettings.user
 /Assets/Plugins/Editor/JetBrains
+.fake
