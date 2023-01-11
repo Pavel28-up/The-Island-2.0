@@ -8,6 +8,7 @@ public class CustomCharacterController : MonoBehaviour
     public Animator anim;
     public Rigidbody rig;
     public Transform mainCamera;
+    public Transform AinTarget;
     public float jumpForce = 3.5f; 
     public float walkingSpeed = 2f;
     public float runningSpeed = 6f;
