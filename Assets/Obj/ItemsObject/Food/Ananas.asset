@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b22a7448cbe1134f832ad50bd88a6b6, type: 3}
+  m_Name: Ananas
+  m_EditorClassIdentifier: 
+  itemType: 0
+  ItemPrefab: {fileID: 7191432199246989902, guid: 45dd58697ee8c3d4eb78051da9de5525, type: 3}
+  icon: {fileID: 21300000, guid: 43fb444f644ae5a4c9a9e2a99785410a, type: 3}
+  ItemName: Ananas
+  ItemDiscription: 
+  MaximumAmount: 2
+  IsConsumeable: 1
+  ChangeHealth: 10
+  ChangeHunder: 0
+  ChangeThirst: 0

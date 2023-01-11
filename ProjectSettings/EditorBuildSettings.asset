@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoadLobby 1.unity
+    guid: 1f888468687526f4e8ea90d93f042f29
+  - enabled: 1
+    path: Assets/Scenes/NewGame.unity
+    guid: 82dfa75ff6d1da44d811ad40205ef679
+  - enabled: 1
+    path: Assets/Scenes/NewPlayer.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/LoadLobby.unity
+    guid: 1e11f64079b0917428ff99f27fdc4e80
+  - enabled: 1
+    path: Assets/Scenes/Island.unity
+    guid: 99722b415b77e6e4e9b31a22054c5901
+  m_configObjects: {}
