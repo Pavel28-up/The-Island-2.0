@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour
             {
                 // GameObject NewPlayer = Instantiate(PersonPlayer[Id], GamePoint.position, Quaternion.identity) as GameObject;
                 NewPlayerName = PersonPlayer[Id].GetComponent<PersonPlayerParam>();
+                PersonPlayer[Id].SetActive(true);
                 NewPlayerName.Name = PlayerPrefs.GetString("namePlayer");
             }
             else

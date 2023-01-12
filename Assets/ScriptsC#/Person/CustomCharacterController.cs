@@ -71,6 +71,10 @@ public class CustomCharacterController : MonoBehaviour
         {
             anim.SetTrigger("Jump");
         }
+
+        Ray desiredTargetRay = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
+        Vector3 desiredTargetPositio = desiredTargetRay.origin + desiredTargetRay.direction * 0.7f;
+        AinTarget.position = desiredTargetPositio;
     }
     // Update is called once per frame
     void FixedUpdate()
