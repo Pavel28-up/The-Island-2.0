@@ -9,6 +9,7 @@ public class CustomCharacterController : MonoBehaviour
     public Rigidbody rig;
     public Transform mainCamera;
     public Transform AinTarget;
+    public Vector3 desiredTargetPositio;
     public float jumpForce = 3.5f; 
     public float walkingSpeed = 2f;
     public float runningSpeed = 6f;
@@ -43,6 +44,11 @@ public class CustomCharacterController : MonoBehaviour
     }
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            anim.SetTrigger("Hit");
+        }
+
         // Устанавливаем поворот персонажа когда камера поворачивается 
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x,mainCamera.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
         
@@ -73,7 +79,7 @@ public class CustomCharacterController : MonoBehaviour
         }
 
         Ray desiredTargetRay = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
-        Vector3 desiredTargetPositio = desiredTargetRay.origin + desiredTargetRay.direction * 0.7f;
+        desiredTargetPositio = desiredTargetRay.origin + desiredTargetRay.direction * 0.7f;
         AinTarget.position = desiredTargetPositio;
     }
     // Update is called once per frame
