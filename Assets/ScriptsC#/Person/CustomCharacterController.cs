@@ -14,6 +14,7 @@ public class CustomCharacterController : MonoBehaviour
     public float walkingSpeed = 2f;
     public float runningSpeed = 6f;
     public float currentSpeed;
+
     private float animationInterpolation = 1f;
 
     // Start is called before the first frame update
@@ -24,6 +25,7 @@ public class CustomCharacterController : MonoBehaviour
         // и делаем его невидимым
         Cursor.visible = false;
     }
+
     void Run()
     {
         animationInterpolation = Mathf.Lerp(animationInterpolation, 1.5f, Time.deltaTime * 3);
@@ -32,6 +34,7 @@ public class CustomCharacterController : MonoBehaviour
 
         currentSpeed = Mathf.Lerp(currentSpeed, runningSpeed, Time.deltaTime * 3);
     }
+
     void Walk()
     {
         // Mathf.Lerp - отвчает за то, чтобы каждый кадр число animationInterpolation(в данном случае) приближалось к числу 1 со скоростью Time.deltaTime * 3.
@@ -42,11 +45,34 @@ public class CustomCharacterController : MonoBehaviour
 
         currentSpeed = Mathf.Lerp(currentSpeed, walkingSpeed, Time.deltaTime * 3);
     }
+
+    public void ChangeLayerWeight(float newLayerWeight)
+    {
+        StartCoroutine(SmoothLayerWeightChange(anim.GetLayerWeight(1), newLayerWeight, 0.3f));
+    }
+
+    IEnumerator SmoothLayerWeightChange(float oldWeight, float newWeight, float changeDuration)
+    {
+        float elapsed = 0f;
+        while (elapsed < changeDuration)
+        {
+            float currentWeight = Mathf.Lerp(oldWeight, newWeight, elapsed / changeDuration);
+            anim.SetLayerWeight(1, currentWeight);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        anim.SetLayerWeight(1, newWeight);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            anim.SetTrigger("Hit");
+            anim.SetBool("Hit", true);
+        }
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            anim.SetBool("Hit", false);
         }
 
         // Устанавливаем поворот персонажа когда камера поворачивается 
@@ -82,6 +108,7 @@ public class CustomCharacterController : MonoBehaviour
         desiredTargetPositio = desiredTargetRay.origin + desiredTargetRay.direction * 0.7f;
         AinTarget.position = desiredTargetPositio;
     }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -104,6 +131,7 @@ public class CustomCharacterController : MonoBehaviour
         // У меня был баг, что персонаж крутился на месте и это исправил с помощью этой строки
         rig.angularVelocity = Vector3.zero;
     }
+
     public void Jump()
     {
         // Выполняем прыжок по команде анимации.
