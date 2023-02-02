@@ -1,42 +1,48 @@
-# The-Island-2.0
-Peace: Earth
-
-Subject: War of the Gods
-
-History: Veles
-
-An ancient island surrounded by rocks in a
-lost sea with an ancient evil imprisoned 
-in its depths. It would seem that nothing 
-could go wrong... But the servants of 
-darkness do not sleep, and constantly lure
-the ships perishing on the rocks. Looking 
-for someone to free the ancient evil from 
-its imprisonment.
-
-It would seem that what could be easier 
-than to survive on a tropical island after 
-the crash? But trouble comes when you 
-least expect it. The weirdness begins as 
-soon as you wake up on the strange island 
-inhabited by strange creatures. And you 
-don't know if they're friends or enemies. 
-Will they help you survive or it's 
-oborigines cannibals ready to devour 
-anyone who is on their lands. What's more, 
-whether the dormant darkness of the island 
-will break free depends on you. Can the 
-gods prevail?! And what other secrets does 
-the strange island hide?
-
-Upgrade your character, build a shelter, 
-grow fruit and vegetables, and create 
-shrieking and other artifacts. Every 
-action you take has consequences and 
-death is final. And will awaken the enemy 
-of the gods and all life, and you only 
-have to start all over again.
-
- *Island Survival.
- *RPG.
- *???????
+ When the gods created life, they had no 
+idea what it would lead to. And it led to 
+disaster. And now it's not just our world, 
+our universe. All life in all worlds and 
+dimensions is threatened with destruction. 
+The gods lost their power and now have to 
+hold back the darkness on their worlds, 
+on their lands, or to protect them from 
+the darkness.
+ But the gods cannot interfere in the 
+struggle of mortals (which in fact 
+started because of them). But they can 
+indirectly help their children. Some will 
+get a chance to summon warrior of one of 
+the gods, some will get a weapon forged 
+by gods themselves, and some will moan as 
+imesar or warrior of one of the gods. Or 
+people will join the darkness and help to 
+destroy the weakened gods.
+ 
+ A lost island in the Bermuda Triangle 
+beckons and attracts sailors. To smash 
+their ships against the sharp cliffs. 
+Which act as a protective barrier. To 
+keep out mortals and creatures of 
+darkness from the forest.
+ But the darkness never slumbers and 
+beckons ships again and again. And this 
+time was no exception. A week of calm, 
+unknown currents. And here's another ship 
+sees an island on the horizon. The crew 
+hurries towards the cherished land of 
+salvation as they are running out of food 
+and a day's supply of water. But as they 
+approach, a violent storm rises, the ship 
+loses control and hits the rocks.
+ And basically that would have been it. 
+But something happened that no mortal or 
+immortal could have foreseen. Unless the 
+Goddess of Fate knew, knew and didn't 
+intervene. Almost didn't interfere.
+ What awaited the island of the forgotten 
+god Veles? Salvation? Or total 
+destruction with all its inhabitants? Why 
+in thousands 
+of years has only one man survived? And 
+what other secrets lie hidden in the 
+depths of an ancient land of a bygone era?
